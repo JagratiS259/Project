@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login"
+            android:title="@string/login"
+            android:icon="@drawable/ic_login"/>
+    <item
+        android:id="@+id/dashboard"
+        android:title="@string/dashboard"
+        android:icon="@drawable/ic_dashboard"/>
+<item
+    android:id="@+id/profile"
+    android:title="@string/profile"
+    android:icon="@drawable/ic_profile"/>
+
+    <item
+        android:id="@+id/Settings"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings"/>
+
+    <item
+        android:id="@+id/ContactUs"
+        android:title="@string/contactus"
+        android:icon="@drawable/ic_contactus"/>
+
+    <item
+        android:id="@+id/AboutApp"
+        android:title="@string/aboutapp"
+        android:icon="@drawable/ic_aboutapp"/>
+
+    <item
+        android:id="@+id/LogOut"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_logout"/>
+
+    </group>
+</menu>

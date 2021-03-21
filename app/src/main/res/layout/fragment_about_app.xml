@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutAppFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/txtAboutApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/aboutapp_fragment"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/upper"
+        android:layout_width="395dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        android:text="Life on Streets is an Animal shelter home provider which typically
+  collaborates people who want to help stray animals with shelter home
+owners so that a community of helpers can be developed."/>
+
+    <TextView
+        android:id="@+id/mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upper"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:text="Animal Shelter is a place where stray, lost, injured and diseased animals can be
+housed. Many shelter policies allow individuals to bring animals to the
+shelter, this app unloads this process making it less tedious for user. It
+provides users with suggestions about the nearby shelter home. The
+user can get help from administrator by posting questions."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mid"
+        android:padding="10dp"
+        android:text="This
+application is simple and user- friendly not only for user but
+administrator as well. Sometimes, administrators don’t have an
+approach to help stray animals but since this application connects users
+to administrators both sides job can be resolved." />"
+</RelativeLayout>

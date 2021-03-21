@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AnimalShelterApp</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favouriews">favourties</string>
+    <string name="favourites">favourites</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="LogOut">Log Out</string>
+    <string name="AboutApp">About App</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="logout">Log Out</string>
+    <string name="aboutapp">About App</string>
+    <string name="contactus">Contact Us</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_fragment">Profile Fragment</string>
+    <string name="settings_fragment">Settings Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="logout_fragment">Log Out</string>
+    <string name="contactus_fragment">Conac Us</string>
+    <string name="aboutapp_fragment">About App</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="login">LogIn</string>
+    <string name="LogIn_fragment">LogIn Fragment</string>
+</resources>
